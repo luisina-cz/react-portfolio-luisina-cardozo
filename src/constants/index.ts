@@ -16,45 +16,45 @@ export interface Project {
 export const PROJECTS: Project[] = [
     {
         title: "FIESTA DE LA FRUTILLA",
-        video: project1,
+        video: "/assets/projects/project-1.mp4",
         description:
         "Este proyecto consto en una serie de reels promocionaless para la fiesta, variando entre lo informativo y lo atractivo y dinamico, generando interes en la audiencia.",
-        link: project1
+        link: "/assets/projects/project-1.mp4"
     },
     {
         title: "FESTIVAL DEL PESCADOR",
-        video: project2,
+        video: "/assets/projects/project-2.mp4",
         description:
         "Lanzamos un video piloto para el festival regional del pescador, adaptando la escenografía a la tematica.",
-        link: project2
-    },
+        link: "/assets/projects/project-2.mp4"
+    },  
     {
         title: "BIGASHOP URUGUAY",
-        video: project3,
+        video: "/assets/projects/project-3.mp4",
         description:
         "Realice videos comerciales para dicha empresa de materiales de construcción sustentables, para informar al cliente sobre el producto y sus beneficios",
-        link: project3
+        link: "/assets/projects/project-3.mp4"
     },
     {
         title: "I.S.P.6",
-        video: project4,
+        video: "/assets/projects/project-4.mp4",
         description:
         "Para la muestra anual de carreras en el ISP6, realice junto a profesores y alumnos, un video corporativo para enseñar acerca del edificio y la carrera",
-        link: project4
+        link: "/assets/projects/project-4.mp4"
     },
     {
         title: "M.M SAN JUAN",
-        video: project5,
+        video: "/assets/projects/project-5.mp4",
         description:
         "Para la promocion de un boliche, realizamos videos invitando a la comunidad, teniendo en cuenta y adaptandonos a la edad del sector de cliente.",
-        link: project5
+        link: "/assets/projects/project-5.mp4"
     },
     {
         title: "PARIS BOUTIQUE",
-        video: project6,
+        video: "/assets/projects/project-6.mp4",
         description:
         "Junto a un local de ropa, salimos a las calles a interactuar con la gente, haciéndoles preguntas divertidas y premiándolos con regalos. Una estrategia creativa para conectar con el público.",
-        link: project6
+        link: "/assets/projects/project-6.mp4"  
     }
     ];
 export const HERO_CONTENT = `¡Hola! Soy una creadora de contenido  digital con ganas de aprender, crecer y sumar experiencias. Cada proyecto es una oportunidad para dejar una huella creativa y conectar con audiencias.`;

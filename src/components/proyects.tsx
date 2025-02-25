@@ -38,7 +38,7 @@ const Proyects = () => {
                     className="p-10 w-full max-w-xl lg:w-3/4">
                     <h6 className="mb-2 font-semibold">
                     <a
-                        href={project.link.default}
+                        href={project.link}
                         target="_blank"
                         rel="noopener noreferrer"
                         className=" text-[#574535] hover:text-[#f1da61] transition duration-300 flex items-center gap-2 -mt-2 text-lg sm:text-2xl font-serif">
