@@ -10,7 +10,7 @@ html {
 
 body {
     @apply overflow-x-hidden;
-    background: linear-gradient(45deg, #ffffff, #fcf7a1, #f1fa73);
+    background: linear-gradient(45deg, #ffffff, #fcf8b2, #fcf7a1);
     background-size: 300% 300%;
     animation: gradientAnimation 10s ease infinite;
 }
