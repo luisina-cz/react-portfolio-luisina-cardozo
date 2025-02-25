@@ -8,7 +8,7 @@ const Proyects = () => {
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
         transition={{ duration: 0.5 }}
-        className="text-[#574535] text-3xl md:text-4xl lg:text-5xl tracking-tight bg-gradient-to-r from-[#b4a08c]  via-[#f1da61] to-[#f1da61] text-transparent bg-clip-text animated-gradient text-center"
+        className="text-[#574535] text-3xl md:text-4xl lg:text-5xl tracking-tight bg-gradient-to-r from-[#8e4b0d]  via-[#9b650d] to-[#f0ba12] text-transparent bg-clip-text animated-gradient text-center"
         >
         PROYECTOS{" "}
         </motion.h2>
@@ -20,7 +20,7 @@ const Proyects = () => {
                         <video
                             width={1000}
                             height={1000}
-                            className="w-48 h-48 mx-auto rounded-full object-cover border-8 border-[#f1da61]"
+                            className="w-48 h-48 mx-auto rounded-full object-cover border-8 border-[#fd3765]"
                             autoPlay
                             loop
                             muted
@@ -41,7 +41,7 @@ const Proyects = () => {
                         href={project.link}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className=" text-[#574535] hover:text-[#f1da61] transition duration-300 flex items-center gap-2 -mt-2 text-lg sm:text-2xl font-serif">
+                        className=" text-[#f0ba12] hover:text-[#13abd9] transition duration-300 flex items-center gap-2 -mt-2 text-lg sm:text-2xl font-serif">
                         {project.title}
                         <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -58,13 +58,13 @@ const Proyects = () => {
                         </svg>
                     </a>
                     </h6>
-                    <p className=" text-[#b4a08c] text-base my-2 max-w-xl py-2 font-light tracking-tighter">
+                    <p className=" text-[#9b650d] text-base my-2 max-w-xl py-2 font-light tracking-tighter">
                     {project.description}
                     </p>
                 </motion.div>
                 {index=== 0 &&(
                     <div className="absolute right-[300px] flex items-center ">
-                    <div className="-mt-16 bg-[#574535] text-white text-sm px-3 py-1 rounded-md animate-bounce shadow-lg">
+                    <div className="-mt-16 bg-[#13abd9] text-white text-sm px-3 py-1 rounded-md animate-bounce shadow-lg">
                     Ver video completo  
                     </div>
                     </div>

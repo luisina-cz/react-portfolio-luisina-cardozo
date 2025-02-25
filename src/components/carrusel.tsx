@@ -20,12 +20,12 @@ const VideoCarousel = () => {
 
     return (
         <div className= "w-full flex flex-col items-center">
-            <h2 className="text-center gap-2 mt-4 bg-[#574535] text-white text-sm px-3 py-1 rounded-md animate-bounce shadow-lg">VER MAS</h2>
+            <h2 className="text-center gap-2 mt-4 bg-[#13abd9] text-white text-sm px-3 py-1 rounded-md animate-bounce shadow-lg">VER MAS</h2>
 
         <div className="mt-8 relative flex items-center justify-center w-full">
             <button 
                 onClick={prevVideo} 
-                className="text-white absolute left-10 p-4 bg-[#f1da61] rounded-full hover:bg-[#f1da61]/80 transition-colors outline-none focus:outline-none"
+                className="text-white absolute left-10 p-4 bg-[#fd3765] rounded-full hover:bg-[#fd3765]/80 transition-colors outline-none focus:outline-none"
                 style={{ color: 'white', WebkitTapHighlightColor: 'transparent' }}
             >
             {"<"}
@@ -46,7 +46,7 @@ const VideoCarousel = () => {
             </motion.div>
             <button 
                 onClick={nextVideo} 
-                className="text-white absolute right-10 p-4 bg-[#f1da61] rounded-full hover:bg-[#f1da61]/80 transition-colors outline-none focus:outline-none"
+                className="text-white absolute right-10 p-4 bg-[#fd3765] rounded-full hover:bg-[#fd3765]/80 transition-colors outline-none focus:outline-none"
                 style={{ color: 'white', WebkitTapHighlightColor: 'transparent' }}
             >
                 {">"}
