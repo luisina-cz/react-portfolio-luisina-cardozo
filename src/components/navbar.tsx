@@ -27,7 +27,7 @@ const Navbar = () => {
             <FaLinkedin className="text-[#fd3765] hover:text-[#ffffff]  transition duration-300 text-4xl" />
         </a>
         <a
-            href="https://www.tiktok.com/@luisiiicardozo/"
+            href="https://www.tiktok.com/@luisina.cardozo.ugc/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-[#ffffff] transition duration-300"

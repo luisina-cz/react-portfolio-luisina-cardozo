@@ -24,6 +24,7 @@ const Proyects = () => {
                             autoPlay
                             loop
                             muted
+                            playsInline
                         >
                             <source src={project.video} type="video/mp4" />
                             Tu navegador no soporta el video.
