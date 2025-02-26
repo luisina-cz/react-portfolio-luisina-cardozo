@@ -60,8 +60,7 @@ export const PROJECTS: Project[] = [
 export const HERO_CONTENT = `¡Hola! Soy una creadora de contenido  digital con ganas de aprender, crecer y sumar experiencias. Cada proyecto es una oportunidad para dejar una huella creativa y conectar con audiencias.`;
 
 export const ABOUT_TEXT = `Disfruto adaptarme a cada desafío, entender las necesidades del cliente y su audiencia, y crear contenido que destaque e inspire.
-A lo largo de mi trayectoria, he trabajado en proyectos súper variados, lo que me enseñó a ser flexible y encontrar la mejor manera de comunicar ideas de manera efectiva.
-Si hay algo que define mi forma de trabajar, es mi entusiasmo por cada proyecto que emprendo y mi compromiso de generar un impacto positivo. ¡Siempre estoy lista para nuevos retos que me permitan seguir aprendiendo y creciendo!`;
+A lo largo de mi trayectoria, he trabajado en proyectos súper variados, lo que me enseñó a ser flexible y encontrar la mejor manera de comunicar ideas de manera efectiva. ¡Siempre estoy lista para nuevos retos que me permitan seguir aprendiendo y creciendo!`;
 
 export const CONTACT = {
     address: "Coronda, Santa Fe - Argentina ",

@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const Proyects = () => {
     return (
-    <div className="mt-8 w-full px-4 lg:px-8">
+    <div className="mt-20 w-full px-4 lg:px-8">
         <motion.h2
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}

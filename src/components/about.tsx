@@ -11,7 +11,7 @@ import { ABOUT_TEXT } from "../constants";
 
 const About = () => {
     return (
-        <div className="w-full px-4 py-12 lg:py-20">
+        <div className="w-full px-4">
             <h1 className="text-[#574535] text-3xl md:text-4xl lg:text-5xl bg-gradient-to-r from-[#9b650d]  via-[#f0ba12] to-[#f1da61] text-transparent bg-clip-text animated-gradient text-center mb-12">
                 SOBRE MI
             </h1>

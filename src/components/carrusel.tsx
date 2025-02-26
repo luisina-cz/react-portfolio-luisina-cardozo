@@ -12,6 +12,14 @@ const VideoCarousel = () => {
         "https://www.youtube.com/embed/GFOTJnGZ-eM?si=StBWjW4TXCpi6kQs",
         "https://www.youtube.com/embed/17kLbcpCouA?si=yQq6SGGbBUWgrFgn",
         "https://www.youtube.com/embed/cdWBrbE5otI?si=CamC9K8BgyOsM3Ar",
+        "https://www.youtube.com/embed/17kLbcpCouA?si=YhsqHorlvVg?si=wKlZvz1T_AcGpPLE",
+        "https://www.youtube.com/embed/ujkLADW4P98?si=l9WX40-J__qbeZ7h",
+        "https://www.youtube.com/embed/Ay1gIqQGv1Q?si=aHJrHzkg6b-7urRK",
+        "https://www.youtube.com/embed/Zi1pSMmZbxM?si=ZquiN18izkflmMm8",
+        "https://www.youtube.com/embed/q1Kt15DquZY?si=w-1-NneENguTiKG2",
+        "https://www.youtube.com/embed/xb6S8SQyRCk?si=2Nx5rjLWm8aElFvm",
+        "https://www.youtube.com/embed/t1dCEksHgxE?si=8Oqrj8VtnWoSC_j6",
+
     ];
     const [index, setIndex] = useState(0);
 

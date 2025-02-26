@@ -24,7 +24,7 @@ const services = [
 
 const Services = () => {
     return (
-    <div className="mt-12 px-4 lg:mt-20 text-center">
+    <div className="-mt-8 px-4 lg:mt-20 text-center">
         <h2 className="text-3xl md:text-4xl lg:text-5xl tracking-tight bg-gradient-to-r from-[#9b650d] via-[#f0ba12] to-[#f1da61] text-transparent bg-clip-text">
             SERVICIOS
         </h2>
