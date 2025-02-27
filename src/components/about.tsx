@@ -4,9 +4,9 @@ import { ABOUT_TEXT } from "../constants";
 import { useState, useEffect } from "react";
 
 const aboutImages = [
-    "/public/assets/aboutImages/about-1.jpg",
-    "/public/assets/aboutImages/about-2.jpg",   
-    "/public/assets/aboutImages/about-3.jpg"
+    "/assets/aboutImages/about-1.jpg",
+    "/assets/aboutImages/about-2.jpg",   
+    "/assets/aboutImages/about-3.jpg"
 ];
 
 const About = () => {
