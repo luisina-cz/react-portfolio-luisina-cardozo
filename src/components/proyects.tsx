@@ -63,13 +63,13 @@ const Proyects = () => {
                     {project.description}
                     </p>
                 </motion.div>
-                {index=== 0 &&(
-                    <div className="absolute right-[300px] flex items-center ">
-                    <div className="-mt-16 bg-[#e67e22] text-white text-sm px-3 py-1 rounded-md animate-bounce shadow-lg">
-                    Ver video completo  
+                {index === 0 && (
+                    <div className="absolute lg:right-[300px] right-4 flex items-center">
+                        <div className="-mt-16 bg-[#e67e22] text-white text-sm px-3 py-1 rounded-md animate-bounce shadow-lg">
+                            Ver video completo  
+                        </div>
                     </div>
-                    </div>
-                    )}
+                )}
             </div>
         ))}
         </div>
