@@ -12,12 +12,13 @@ const Contact = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 initial={{ opacity: 0, y: -100 }}
                 transition={{ duration: 1.5 }}
-                className="mt-8 text-4xl sm:text-3xl tracking-tight bg-gradient-to-r from-[#8e4b0d]  via-[#9b650d] to-[#f0ba12] text-transparent bg-clip-text animated-gradient  ">¿QUERES QUE TRABAJEMOS JUNTOS? 
-                CONTACTAME!</motion.h1>
+                className="mt-8 text-4xl sm:text-3xl tracking-tight bg-gradient-to-r from-[#e65e22]  via-[#ed8930] to-[#e65e22] text-transparent bg-clip-text animated-gradient "> ¿QUERES QUE TRABAJEMOS JUNTOS? 
+                CONTACTAME!
+                </motion.h1>
 
 
             <div
-                className="mt-5 text-center text-[#fd3765] text-lg my-2 max-w-xl py-6 tracking-tighter">
+                className="mt-5 text-center text-[#274c77] text-lg my-2 max-w-xl py-6 tracking-tighter">
 
                 <a href={`mailto:${CONTACT.email}`} className="border-b">
                     {CONTACT.email}

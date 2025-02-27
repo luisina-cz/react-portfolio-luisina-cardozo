@@ -33,7 +33,7 @@ const VideoCarousel = () => {
         <div className="mt-8 relative flex items-center justify-center w-full">
             <button 
                 onClick={prevVideo} 
-                className="text-white absolute left-10 p-4 bg-[#fd3765] rounded-full hover:bg-[#fd3765]/80 transition-colors outline-none focus:outline-none"
+                className="text-white absolute left-10 p-4 bg-[#e65e22] rounded-full hover:bg-[#d88c64]/80 transition-colors outline-none focus:outline-none"
                 style={{ color: 'white', WebkitTapHighlightColor: 'transparent' }}
             >
             {"<"}
@@ -54,7 +54,7 @@ const VideoCarousel = () => {
             </motion.div>
             <button 
                 onClick={nextVideo} 
-                className="text-white absolute right-10 p-4 bg-[#fd3765] rounded-full hover:bg-[#fd3765]/80 transition-colors outline-none focus:outline-none"
+                className="text-white absolute right-10 p-4 bg-[#e65e22] rounded-full hover:bg-[#d88c64]/80 transition-colors outline-none focus:outline-none"
                 style={{ color: 'white', WebkitTapHighlightColor: 'transparent' }}
             >
                 {">"}
