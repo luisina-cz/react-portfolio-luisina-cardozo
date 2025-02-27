@@ -1,6 +1,5 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import aboutImg from "src/assets/aboutImages.jpg";
 import { ABOUT_TEXT } from "../constants";
 import { useState, useEffect } from "react";
 
