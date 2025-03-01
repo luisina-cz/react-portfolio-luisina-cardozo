@@ -21,10 +21,10 @@ const Navbar = () => {
     }, []);
 
     return (
-    <nav className={`bg-[#e0d6d9] fixed inset-x-0 top-0 w-full z-50 flex items-center justify-between py-2 px-4 sm:px-8 transition-transform duration-300 ${visible ? "translate-y-0" : "-translate-y-full"}`}>
+    <nav className={`bg-[#e0d6d9] fixed inset-x-0 top-0 w-full z-50 h-20 flex items-center justify-between py-2 px-4 sm:px-8 transition-transform duration-300 ${visible ? "translate-y-0" : "-translate-y-full"}`}>
         <div className="flex flex-shrink-0 items-center">
         <img
-            className="rounded-md w-10 sm:w-12 md:w-16 lg:w-20 xl:w-24 mx-2"
+            className="w-auto h-[40px] object-contain mix-blend-multiply"
             src={logo}
             alt="Luisina Logo"
         />
